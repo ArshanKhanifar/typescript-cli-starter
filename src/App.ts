@@ -1,12 +1,5 @@
-import { config } from "dotenv";
-import { ContractId, setup } from "./AddressBook";
-import { watchPrice } from "./PriceWatchoor";
-
-config();
-setup();
-
-async function main() {
-  await watchPrice(ContractId.AROME_FRAX);
+const main = async () => {
+  console.log('hello, world!');
 }
 
 main().catch((error) => {
