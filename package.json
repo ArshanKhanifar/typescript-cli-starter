@@ -10,7 +10,7 @@
     "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
     "@types/node": "^16.11.1",
