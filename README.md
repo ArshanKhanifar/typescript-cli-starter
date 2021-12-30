@@ -1,4 +1,4 @@
-## The LP Scalpoor
+## Typescript CLI Starter
 
 This is my typescript project starter.
 
