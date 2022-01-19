@@ -1,6 +1,8 @@
+import { logger } from "./utils/logger";
+
 const main = async () => {
-  console.log('hello, world!');
-}
+  logger.info("hello, world!");
+};
 
 main().catch((error) => {
   console.error(error);
